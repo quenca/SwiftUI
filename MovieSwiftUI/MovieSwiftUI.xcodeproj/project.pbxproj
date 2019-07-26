@@ -17,6 +17,7 @@
 		827C659422EB650000BDB439 /* MovieSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C659322EB650000BDB439 /* MovieSwiftUITests.swift */; };
 		827C659F22EB650000BDB439 /* MovieSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C659E22EB650000BDB439 /* MovieSwiftUIUITests.swift */; };
 		827C65AE22EB6A2100BDB439 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C65AD22EB6A2000BDB439 /* MovieRow.swift */; };
+		827C65B022EB6A5B00BDB439 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C65AF22EB6A5B00BDB439 /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		827C659E22EB650000BDB439 /* MovieSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSwiftUIUITests.swift; sourceTree = "<group>"; };
 		827C65A022EB650000BDB439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		827C65AD22EB6A2000BDB439 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		827C65AF22EB6A5B00BDB439 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				827C658022EB64FF00BDB439 /* MovieList.swift */,
 				827C65AD22EB6A2000BDB439 /* MovieRow.swift */,
+				827C65AF22EB6A5B00BDB439 /* MovieDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				827C657A22EB64FF00BDB439 /* AppDelegate.swift in Sources */,
 				827C65AE22EB6A2100BDB439 /* MovieRow.swift in Sources */,
 				827C657C22EB64FF00BDB439 /* SceneDelegate.swift in Sources */,
+				827C65B022EB6A5B00BDB439 /* MovieDetail.swift in Sources */,
 				827C658122EB64FF00BDB439 /* MovieList.swift in Sources */,
 				827C657F22EB64FF00BDB439 /* MovieSwiftUI.xcdatamodeld in Sources */,
 			);
