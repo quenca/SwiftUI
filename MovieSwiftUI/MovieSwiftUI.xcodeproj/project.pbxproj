@@ -19,6 +19,7 @@
 		827C65AE22EB6A2100BDB439 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C65AD22EB6A2000BDB439 /* MovieRow.swift */; };
 		827C65B022EB6A5B00BDB439 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C65AF22EB6A5B00BDB439 /* MovieDetail.swift */; };
 		827C65B222EB6B3800BDB439 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C65B122EB6B3800BDB439 /* URLImage.swift */; };
+		827C65B522EB6C2D00BDB439 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827C65B422EB6C2D00BDB439 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		827C65AD22EB6A2000BDB439 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
 		827C65AF22EB6A5B00BDB439 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		827C65B122EB6B3800BDB439 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		827C65B422EB6C2D00BDB439 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		827C657822EB64FF00BDB439 /* MovieSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				827C65B322EB6C0E00BDB439 /* Model */,
 				827C65AC22EB69A400BDB439 /* View */,
 				827C657922EB64FF00BDB439 /* AppDelegate.swift */,
 				827C657B22EB64FF00BDB439 /* SceneDelegate.swift */,
@@ -154,6 +157,14 @@
 				827C65B122EB6B3800BDB439 /* URLImage.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		827C65B322EB6C0E00BDB439 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				827C65B422EB6C2D00BDB439 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 				827C657C22EB64FF00BDB439 /* SceneDelegate.swift in Sources */,
 				827C65B022EB6A5B00BDB439 /* MovieDetail.swift in Sources */,
 				827C658122EB64FF00BDB439 /* MovieList.swift in Sources */,
+				827C65B522EB6C2D00BDB439 /* Movie.swift in Sources */,
 				827C657F22EB64FF00BDB439 /* MovieSwiftUI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
